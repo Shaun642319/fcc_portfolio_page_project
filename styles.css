@@ -1,0 +1,172 @@
+body{
+  background-color: #F5F5F5;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li{
+  display: inline;
+  font-style: none;
+}
+a{
+  text-decoration: none;
+}
+#navbar{
+  background-color: #F99417;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  box-shadow: 1px 2px 6px 1px rgba(20,20,20,0.4);
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px
+}
+ul li a{
+  padding: 0 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+ul li a:hover{
+  color: #afb3b0;
+}
+#welcome-section{
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #363062;
+}
+.welcome{
+  padding-top: 260px;
+}
+.welcome h1{
+  font-size: 70px;
+  margin-bottom: 0;
+  color: #F5F5F5;
+  font-weight: bold;
+}
+.welcome p{
+  font-style: italic;
+  font-size: 20px;
+  color: red;
+}
+h2{
+  text-decoration: underline;
+  padding-top: 100px;
+  font-size: 45px;
+  color: #4D4C7D;
+}
+ .grid{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 40px
+}
+.project{
+  border: 1px solid #4D4C7D;
+  width: 350px;
+  height: 450px;
+  background-color: #4D4C7D;
+  box-shadow: 2px 2px 5px black;
+  font-size: 20px;
+  color: white;
+  border-radius: 4px
+}
+.project p{
+  padding-top: 110%;
+}
+.project:hover{
+  color: #F99417;
+}
+button{
+  background-color: #4D4C7D;
+  height: 40px;
+  color: white;
+  margin-top: 80px;
+  border-radius: 3px;
+  width: 125px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+button:hover{
+  font-size: 22px;
+}
+#contact{
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-color: #4D4C7D;
+}
+.contacts{
+  padding-top: 200px;
+  color: white;
+}
+.contacts h1{
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.contacts p{
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 45px;
+}
+#profile-link{
+  color: white;
+}
+ol li{
+  padding: 0 35px;
+  font-weight: bold;
+  font-size: 25px
+}
+ol li:hover{
+  text-shadow: 2px 2px 5px black;
+}
+.footer{
+  background-color: #4D4C7D;
+  height: 60px;
+  border-top: 4px solid #F99417;
+}
+.footer p{
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 30px;
+  color: white;
+}
+@media (max-width: 768px) {
+  body {
+    background-color: #F5F5F5; 
+  }
+
+
+  #navbar {
+    height: 50px; 
+  }
+  
+  .nav {
+    justify-content: center; 
+  }
+
+  ul li a {
+    padding: 0 15px; 
+  }
+
+  .welcome h1 {
+    font-size: 50px; 
+  }
+
+  .project {
+    width: 250px;
+    height: 350px; 
+  }
+  
+  button {
+    margin-top: 40px;
+  }
+}
